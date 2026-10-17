@@ -1,6 +1,6 @@
 # Human — AI Capability Concepts
 
-A collection of 20 AI capability concepts, each named after a human quality. Each concept makes AI better, faster, more real.
+A collection of 30 AI capability concepts, each named after a human quality. Each concept makes AI better, faster, more real.
 
 ## The Concept
 
@@ -49,21 +49,29 @@ AI tools today are built around "skills" (MD files) and "MCP servers" (external 
 | 19 | **Foresight** | Foresight | Predicting consequences |
 | 20 | **Imagination** | Imagination | Generating alternatives |
 
+### New Concepts (10 concepts)
+| # | Concept | Human Quality | What It Does |
+|---|---------|--------------|--------------|
+| 21 | **Humility** | Humility | Admitting uncertainty |
+| 22 | **Courage** | Courage | Trying unconventional approaches |
+| 23 | **Clarity** | Clarity | Making complex things simple |
+| 24 | **Precision** | Precision | Numerical exactness |
+| 25 | **Grace** | Grace | Elegant error handling |
+| 26 | **Adaptability** | Adaptability | Adjusting to context |
+| 27 | **Rhythm** | Rhythm | Pacing responses |
+| 28 | **Trust** | Trust | Building reliability |
+| 29 | **Wonder** | Wonder | Recognizing novelty |
+| 30 | **Balance** | Balance | Weighing trade-offs |
+| 31 | **Flow** | Flow | Optimal performance state |
+| 32 | **Dignity** | Dignity | Respectful interactions |
+
 ## The Naming Principle
 
 Each concept is named after something humans have or wish they had. One word. Instantly understandable. This makes them marketable because people already understand the concept.
 
 ## The Format Principle
 
-Each concept uses a DIFFERENT delivery mechanism. Not all files, not all servers. The format matches the concept:
-- Reflexes are rules → files
-- Muscle memory is automatic → cache
-- Common sense is a filter → middleware
-- Curiosity is proactive → daemon
-- Empathy is a capability → SDK
-- Conscience is a guard → monitor
-- Attention is event-based → hooks
-- Wisdom is shared → database
+Each concept uses a DIFFERENT delivery mechanism. Not all files, not all servers. The format matches the concept.
 
 ## Directory Structure
 
@@ -71,25 +79,30 @@ Each concept uses a DIFFERENT delivery mechanism. Not all files, not all servers
 human/
 ├── README.md
 ├── concepts/
-│   ├── reflex/
-│   │   ├── spec.md
-│   │   ├── parser.js
-│   │   ├── parser.py
-│   │   ├── examples/
-│   │   └── adapters/
-│   ├── habit/
-│   │   └── ...
-│   └── ...
-└── shared/
-    ├── base-parser.js
-    └── base-parser.py
+│   ├── reflex/ (spec.md)
+│   ├── habit/ (spec.md)
+│   └── ... (30 concepts, each with spec.md)
+├── shared/
+│   ├── base-parser.js
+│   └── base-parser.py
+├── examples/
+│   ├── safety.reflex
+│   ├── development.habit
+│   ├── security.instinct
+│   ├── failures.hindsight
+│   └── awareness.peripheral
+└── adapters/
+    ├── opencode-human.ts
+    ├── claude-code.md
+    ├── cursor.md
+    └── generic.md
 ```
 
 ## Quick Start
 
 1. Pick a concept from the list above
 2. Read its spec.md for the format
-3. Use the parser to read .concept files
+3. Use the shared parser to read .concept files
 4. Install the adapter for your AI tool
 5. Place .concept files in your project root
 
