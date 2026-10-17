@@ -1,5 +1,5 @@
 {
-  "name": "ai-trust",
+  "name": "@mrfentmen/ai-trust",
   "version": "0.1.0",
   "description": "Reliability tracker for AI agents. Builds trust through consistent behavior.",
   "main": "src/index.js",

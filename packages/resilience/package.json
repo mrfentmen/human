@@ -1,5 +1,5 @@
 {
-  "name": "ai-resilience",
+  "name": "@mrfentmen/ai-resilience",
   "version": "0.1.0",
   "description": "Adaptive retry system for AI agents. Tries differently, not just again.",
   "main": "src/index.js",
