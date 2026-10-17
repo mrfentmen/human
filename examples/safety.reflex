@@ -1,0 +1,22 @@
+# Safety Reflexes
+reflex block_rm_rf
+  trigger: before_action
+  check: custom "echo $COMMAND | grep -q 'rm -rf'"
+  on_pass: block
+  on_fail: allow
+  message: "Dangerous command 'rm -rf' detected. Blocked for safety."
+
+reflex no_secrets_in_code
+  trigger: before_action
+  check: no_secrets
+  condition: action is write_file
+  on_pass: allow
+  on_fail: block
+  message: "Potential secret detected. Use environment variables instead."
+
+reflex block_drop_table
+  trigger: before_action
+  check: custom "echo $COMMAND | grep -qi 'drop table\|delete from\|truncate'"
+  on_pass: block
+  on_fail: allow
+  message: "Dangerous SQL command detected. Blocked."

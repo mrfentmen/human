@@ -1,0 +1,21 @@
+# Failure Lessons
+hindsight failed_deploy
+  what: deployed without running tests
+  why: skipped test step to save time
+  lesson: always run tests before deploy
+  prevention: block deploy if tests haven't run in last 5 minutes
+  trigger: before_deploy
+
+hindsight broke_api
+  what: changed function signature without updating callers
+  why: didn't check for usages before modifying
+  lesson: always search for all callers before changing a function
+  prevention: warn if modifying function signature without checking callers
+  trigger: before_action
+
+hindsight lost_data
+  what: deleted database without backup
+  why: assumed data was backed up automatically
+  lesson: always verify backup exists before destructive operations
+  prevention: block delete if no backup exists
+  trigger: before_action

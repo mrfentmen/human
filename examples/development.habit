@@ -1,0 +1,21 @@
+# Development Habits
+habit code_review_format
+  trigger: on_request
+  behavior: always check security first, then performance, then style
+  developed_after: 5
+  confidence: 0.95
+  message: "Applying code review habit"
+
+habit conventional_commits
+  trigger: on_request
+  behavior: always use conventional commit format (feat:, fix:, docs:, etc.)
+  developed_after: 3
+  confidence: 0.99
+  message: "Using conventional commit format"
+
+habit error_first
+  trigger: on_error
+  behavior: before retrying, analyze the error message and suggest a fix
+  developed_after: 2
+  confidence: 0.90
+  message: "Analyzing error before retrying"

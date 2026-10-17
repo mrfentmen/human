@@ -1,0 +1,18 @@
+# Context Awareness
+peripheral file_changes
+  watch: files being modified by other processes
+  alert: "Another process is modifying {file}. Coordinate changes?"
+  level: warn
+  trigger: on_change
+
+peripheral dependency_conflict
+  watch: new dependencies being installed
+  alert: "Package {name} conflicts with existing {existing}. Resolve before installing?"
+  level: block
+  trigger: on_change
+
+peripheral context_overflow
+  watch: token usage approaching limit
+  alert: "Context window at 80%. Consider summarizing."
+  level: warn
+  trigger: on_threshold

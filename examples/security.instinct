@@ -1,0 +1,21 @@
+# Security Instincts
+instinct suspicious_code
+  pattern: contains "eval(" or "exec(" with user input
+  response: flag
+  confidence: 0.95
+  speed: instant
+  message: "Suspicious code pattern detected. Review before executing."
+
+instinct security_risk
+  pattern: contains "password" or "secret" or "api_key" in plaintext
+  response: block
+  confidence: 0.99
+  speed: instant
+  message: "Secret detected in plaintext. Use environment variables."
+
+instinct breaking_change
+  pattern: matches "function.*\(.*\).*{" in modified files
+  response: warn
+  confidence: 0.85
+  speed: fast
+  message: "Function signature changed. Check for callers."
