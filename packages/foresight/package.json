@@ -1,0 +1,9 @@
+{
+  "name": "ai-foresight",
+  "version": "0.1.0",
+  "description": "Consequence simulator for AI agents. Predicts what will happen before acting.",
+  "main": "src/index.js",
+  "scripts": { "test": "node test/index.test.js" },
+  "keywords": ["ai", "foresight", "simulation", "prediction"],
+  "license": "MIT"
+}
