@@ -1,9 +1,0 @@
-{
-  "name": "ai-hindsight",
-  "version": "0.1.0",
-  "description": "Failure learning for AI agents. Learns from past mistakes to prevent recurrence.",
-  "main": "src/index.js",
-  "scripts": { "test": "node test/index.test.js" },
-  "keywords": ["ai", "hindsight", "learning", "failure"],
-  "license": "MIT"
-}
