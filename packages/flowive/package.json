@@ -1,0 +1,16 @@
+{
+  "name": "flowive",
+  "version": "0.1.1",
+  "description": "Performance state monitor for AI agents. Maintains optimal operating state.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/index.test.js"
+  },
+  "keywords": [
+    "ai",
+    "flow",
+    "performance",
+    "state"
+  ],
+  "license": "MIT"
+}

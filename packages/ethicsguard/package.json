@@ -1,0 +1,16 @@
+{
+  "name": "ethicsguard",
+  "version": "0.1.0",
+  "description": "Quality linter for AI output. Enforces coding standards and best practices.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/index.test.js"
+  },
+  "keywords": [
+    "ai",
+    "discipline",
+    "linter",
+    "quality"
+  ],
+  "license": "MIT"
+}
