@@ -1,0 +1,9 @@
+{
+  "name": "ai-humility",
+  "version": "0.1.0",
+  "description": "Confidence gate for AI agents. Admits uncertainty instead of hallucinating.",
+  "main": "src/index.js",
+  "scripts": { "test": "node test/index.test.js" },
+  "keywords": ["ai", "humility", "confidence", "uncertainty"],
+  "license": "MIT"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ai-imagination",
+  "version": "0.1.0",
+  "description": "Alternative generator for AI agents. Generates diverse approaches to problems.",
+  "main": "src/index.js",
+  "scripts": { "test": "node test/index.test.js" },
+  "keywords": ["ai", "imagination", "generator", "alternatives"],
+  "license": "MIT"
+}
