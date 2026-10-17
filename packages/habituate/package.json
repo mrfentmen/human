@@ -1,0 +1,16 @@
+{
+  "name": "habituate",
+  "version": "0.1.0",
+  "description": "Automatic behaviors for AI agents. Develops through repetition.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/index.test.js"
+  },
+  "keywords": [
+    "ai",
+    "habit",
+    "automatic",
+    "behavior"
+  ],
+  "license": "MIT"
+}
