@@ -1,0 +1,16 @@
+{
+  "name": "concentrated",
+  "version": "0.1.0",
+  "description": "Event-triggered hooks for AI agents. Focuses attention at the right moment.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/index.test.js"
+  },
+  "keywords": [
+    "ai",
+    "attention",
+    "hooks",
+    "events"
+  ],
+  "license": "MIT"
+}

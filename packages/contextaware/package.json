@@ -1,0 +1,16 @@
+{
+  "name": "contextaware",
+  "version": "0.1.0",
+  "description": "Background exploration daemon for AI agents. Proactively discovers useful context.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/index.test.js"
+  },
+  "keywords": [
+    "ai",
+    "curiosity",
+    "daemon",
+    "exploration"
+  ],
+  "license": "MIT"
+}
