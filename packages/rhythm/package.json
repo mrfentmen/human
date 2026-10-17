@@ -1,9 +1,0 @@
-{
-  "name": "ai-rhythm",
-  "version": "0.1.0",
-  "description": "Pacing engine for AI agents. Controls response timing.",
-  "main": "src/index.js",
-  "scripts": { "test": "node test/index.test.js" },
-  "keywords": ["ai", "rhythm", "pacing", "timing"],
-  "license": "MIT"
-}
