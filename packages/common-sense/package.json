@@ -1,0 +1,9 @@
+{
+  "name": "ai-common-sense",
+  "version": "0.1.0",
+  "description": "Real-world validation middleware for AI agents.",
+  "main": "src/index.js",
+  "scripts": { "test": "node test/index.test.js" },
+  "keywords": ["ai", "common-sense", "middleware", "validation"],
+  "license": "MIT"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ai-courage",
+  "version": "0.1.0",
+  "description": "Strategy generator for AI agents. Tries unconventional approaches when standard ones fail.",
+  "main": "src/index.js",
+  "scripts": { "test": "node test/index.test.js" },
+  "keywords": ["ai", "courage", "strategy", "alternatives"],
+  "license": "MIT"
+}
