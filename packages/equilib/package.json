@@ -1,0 +1,16 @@
+{
+  "name": "equilib",
+  "version": "0.1.0",
+  "description": "Trade-off analyzer for AI agents. Weighs options intelligently.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/index.test.js"
+  },
+  "keywords": [
+    "ai",
+    "balance",
+    "tradeoff",
+    "analysis"
+  ],
+  "license": "MIT"
+}
