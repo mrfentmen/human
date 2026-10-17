@@ -1,9 +1,0 @@
-{
-  "name": "ai-human",
-  "version": "0.1.0",
-  "description": "The Human AI capability system. 20 concepts named after human qualities.",
-  "main": "src/index.js",
-  "scripts": { "test": "node test/index.test.js" },
-  "keywords": ["ai", "human", "capabilities", "reflex", "instinct", "habit"],
-  "license": "MIT"
-}
