@@ -1,0 +1,16 @@
+{
+  "name": "perspicacity",
+  "version": "0.1.0",
+  "description": "Context filter for AI agents. Narrows attention to only what matters.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/index.test.js"
+  },
+  "keywords": [
+    "ai",
+    "focus",
+    "filter",
+    "context"
+  ],
+  "license": "MIT"
+}

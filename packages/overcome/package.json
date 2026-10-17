@@ -1,0 +1,16 @@
+{
+  "name": "overcome",
+  "version": "0.1.0",
+  "description": "Adaptive retry system for AI agents. Tries differently, not just again.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/index.test.js"
+  },
+  "keywords": [
+    "ai",
+    "resilience",
+    "retry",
+    "adaptive"
+  ],
+  "license": "MIT"
+}
