@@ -1,9 +1,0 @@
-{
-  "name": "ai-dignity",
-  "version": "0.1.0",
-  "description": "Tone monitor for AI agents. Ensures respectful interactions.",
-  "main": "src/index.js",
-  "scripts": { "test": "node test/index.test.js" },
-  "keywords": ["ai", "dignity", "tone", "respect"],
-  "license": "MIT"
-}
