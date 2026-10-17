@@ -1,0 +1,16 @@
+{
+  "name": "prevail",
+  "version": "0.1.0",
+  "description": "Action queue system for AI agents. Holds actions until conditions are met.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/index.test.js"
+  },
+  "keywords": [
+    "ai",
+    "patience",
+    "queue",
+    "delay"
+  ],
+  "license": "MIT"
+}

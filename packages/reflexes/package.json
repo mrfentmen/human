@@ -1,0 +1,16 @@
+{
+  "name": "reflexes",
+  "version": "0.1.0",
+  "description": "Pre-action verification for AI agents. Read .reflex files and check rules before actions.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/index.test.js"
+  },
+  "keywords": [
+    "ai",
+    "reflex",
+    "verification",
+    "safety"
+  ],
+  "license": "MIT"
+}
