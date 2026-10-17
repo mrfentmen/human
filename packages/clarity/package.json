@@ -1,0 +1,9 @@
+{
+  "name": "ai-clarity",
+  "version": "0.1.0",
+  "description": "Simplification engine for AI agents. Makes complex things simple.",
+  "main": "src/index.js",
+  "scripts": { "test": "node test/index.test.js" },
+  "keywords": ["ai", "clarity", "simplification", "communication"],
+  "license": "MIT"
+}

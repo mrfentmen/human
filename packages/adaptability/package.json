@@ -1,0 +1,9 @@
+{
+  "name": "ai-adaptability",
+  "version": "0.1.0",
+  "description": "Context adapter for AI agents. Adjusts behavior to different situations.",
+  "main": "src/index.js",
+  "scripts": { "test": "node test/index.test.js" },
+  "keywords": ["ai", "adaptability", "context", "adaptation"],
+  "license": "MIT"
+}
