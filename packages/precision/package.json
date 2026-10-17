@@ -1,0 +1,9 @@
+{
+  "name": "ai-precision",
+  "version": "0.1.0",
+  "description": "Numerical exactness verification for AI agents.",
+  "main": "src/index.js",
+  "scripts": { "test": "node test/index.test.js" },
+  "keywords": ["ai", "precision", "math", "accuracy"],
+  "license": "MIT"
+}

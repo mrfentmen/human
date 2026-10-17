@@ -1,0 +1,9 @@
+{
+  "name": "ai-peripheral",
+  "version": "0.1.0",
+  "description": "Always-on context awareness for AI agents. Like peripheral vision.",
+  "main": "src/index.js",
+  "scripts": { "test": "node test/index.test.js" },
+  "keywords": ["ai", "peripheral", "awareness", "monitoring"],
+  "license": "MIT"
+}
