@@ -1,0 +1,9 @@
+{
+  "name": "ai-instinct",
+  "version": "0.1.0",
+  "description": "Fast pattern matching for AI agents. Gut feelings without full reasoning.",
+  "main": "src/index.js",
+  "scripts": { "test": "node test/index.test.js" },
+  "keywords": ["ai", "instinct", "pattern", "fast"],
+  "license": "MIT"
+}

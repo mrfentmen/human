@@ -1,0 +1,9 @@
+{
+  "name": "ai-muscle-memory",
+  "version": "0.1.0",
+  "description": "Cached execution paths for AI agents. Develops muscle memory.",
+  "main": "src/index.js",
+  "scripts": { "test": "node test/index.test.js" },
+  "keywords": ["ai", "muscle-memory", "cache", "patterns"],
+  "license": "MIT"
+}

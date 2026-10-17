@@ -1,0 +1,9 @@
+{
+  "name": "ai-judgment",
+  "version": "0.1.0",
+  "description": "Multi-dimensional quality scorer for AI decisions.",
+  "main": "src/index.js",
+  "scripts": { "test": "node test/index.test.js" },
+  "keywords": ["ai", "judgment", "scoring", "quality"],
+  "license": "MIT"
+}
