@@ -1,0 +1,16 @@
+{
+  "name": "tasteful",
+  "version": "0.1.0",
+  "description": "Aesthetic evaluation for AI output. Knows what looks good.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/index.test.js"
+  },
+  "keywords": [
+    "ai",
+    "taste",
+    "aesthetic",
+    "design"
+  ],
+  "license": "MIT"
+}

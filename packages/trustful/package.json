@@ -1,0 +1,16 @@
+{
+  "name": "trustful",
+  "version": "0.1.0",
+  "description": "Reliability tracker for AI agents. Builds trust through consistent behavior.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/index.test.js"
+  },
+  "keywords": [
+    "ai",
+    "trust",
+    "reliability",
+    "tracking"
+  ],
+  "license": "MIT"
+}

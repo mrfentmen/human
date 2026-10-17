@@ -1,0 +1,16 @@
+{
+  "name": "wonderous",
+  "version": "0.1.0",
+  "description": "Novelty detector for AI agents. Recognizes interesting findings.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/index.test.js"
+  },
+  "keywords": [
+    "ai",
+    "wonder",
+    "novelty",
+    "discovery"
+  ],
+  "license": "MIT"
+}
